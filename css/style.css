@@ -72,7 +72,9 @@ tbody tr:hover{
     left: 50px;
     color: #fff;
     text-shadow: 0 0 3px rgba(0,0,0,.5);
-    opacity: 1;
+    /* opacity: 1; */
+    padding: 10px 25px;
+    background: rgba(3,3,3,.5);
     
 }
 .text_content * {
@@ -141,6 +143,17 @@ main.content{
     }
     main.content{
         float: none;
+        width: 100%;
+    }
+}
+@media  (min-width:776px) and (max-width:1200px) 
+{
+    h1{
+        display: block;
+    }
+    #btn{
+        display: block;
+        position: static;
         width: 100%;
     }
 }
